@@ -1,0 +1,88 @@
+name: geniouscart
+description: geniouscart
+
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^5.0.0
+  http: ^0.13.3
+  shared_preferences: ^2.0.5
+  country_pickers: ^2.0.0
+  connectivity_wrapper: ^1.0.6
+  flutter_staggered_grid_view: ^0.4.0
+  flutter_staggered_animations: ^1.0.0
+  cached_network_image: ^3.0.0
+  url_launcher: ^6.0.0
+  cupertino_icons: ^1.0.3
+  flutter_inner_drawer: ^1.0.0+1
+  smooth_page_indicator: ^0.2.3
+  flutter_rating_bar: ^4.0.0
+  carousel_slider: ^3.0.0
+  dotted_border: ^2.0.0
+  keyboard_actions: ^3.4.0
+  google_sign_in: ^5.0.3
+  #flutter_facebook_login: ^3.0.0
+  flutter_login_facebook: ^1.1.0
+  firebase_auth: ^1.2.0
+  firebase_messaging: ^10.0.0
+  image_picker: ^0.7.5+2
+  photo_view: ^0.12.0
+  random_string: ^2.1.0
+  flex_color_picker: ^2.0.1
+  timelines: ^0.1.0
+
+  # Plugin for parsing html
+  html: ^0.15.0
+
+  # Plugins for parsing css
+  csslib: ^0.17.0
+  css_colors: ^1.1.1
+
+  # Plugins for rendering the <video> tag.
+  video_player: ^2.1.1
+  chewie: ^1.0.0
+
+  # Plugin for rendering the <iframe> tag.
+  webview_flutter: ^2.0.7
+
+  # Plugins for rendering the <audio> tag.
+  chewie_audio: ^1.2.0
+
+  slide_countdown_clock: ^1.0.3
+  pull_to_refresh: ^2.0.0
+  websafe_svg: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/process_timeline/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins/Poppins-Regular.ttf
+        - asset: fonts/Poppins/Poppins-Bold.ttf
+          weight: 800
+        - asset: fonts/Poppins/Poppins-Medium.ttf
+          weight: 600
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
